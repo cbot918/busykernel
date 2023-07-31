@@ -2,3 +2,4 @@ src/
 initrd/
 bzImage
 initrd.img
+temp.sh
