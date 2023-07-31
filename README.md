@@ -1,6 +1,6 @@
 # busy-kernel
 
-## env-requirements
+## Env Requirements
 - ubuntu 20.04
 
 ## Getting-Started
