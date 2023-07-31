@@ -1,6 +1,15 @@
 # busy-kernel
 
+## env-requirements
+- ubuntu 20.04
+
 ## Getting-Started
+
+### clone repo
+```
+git clone https://github.com/cbot918/busykernel && cd busykernel
+```
+
 ### pre-install
 
 install all essential packages
