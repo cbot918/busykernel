@@ -1,6 +1,6 @@
 # busy-kernel
 自己build一個kernel出來,並且進去有busybox的工具可以用
-## Env Requirements
+## VM Environment Suggest
 - ubuntu 20.04
 
 ## Getting-Started
