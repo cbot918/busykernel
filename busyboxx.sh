@@ -20,8 +20,9 @@ cd src
   wget https://busybox.net/downloads/busybox-$BUSYBOX_VERSION.tar.bz2
   tar -xf busybox-$BUSYBOX_VERSION.tar.bz2
   cd busybox-$BUSYBOX_VERSION
-    
     make defconfig
+    sed 's/^.*CONFIG_STATIC[^_].*$/CONFIG_STATIC=y/g' -i .config
+    make CC=musl-gcc -j8 busybox || exit
 
   cd ..
 

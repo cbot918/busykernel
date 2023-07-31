@@ -11,8 +11,8 @@ cd src
     cd busybox-$BUSYBOX_VERSION
     
     # make defconfig
-    sed 's/^.*CONFIG_STATIC.*$/CONFIG_STATIC=y/g' -i .config
-    make CC=musl-gcc -I /usr/include/linux -j8 busybox || exit
+    sed 's/^.*CONFIG_STATIC[^_].*$/CONFIG_STATIC=y/g' -i .config
+    make CC=musl-gcc -j8 busybox || exit
 
   cd ..
 
