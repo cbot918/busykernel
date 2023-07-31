@@ -1,5 +1,14 @@
 # busy-kernel
-自己build一個kernel出來,並且進去有busybox的工具可以用
+快速自己編譯一個有busybox tool可以用的linux kernel出來
+
+
+
+## Reference Tutorial
+[Build a minimal Linux with only Busybox in 1 hour](https://www.youtube.com/watch?v=asnXWOUKhTA)
+
+## Blog Post
+[build_kernel_with_busybox]()
+
 ## VM Environment Suggest
 - ubuntu 20.04
 
@@ -44,6 +53,7 @@ killall qemu-system-x86_64
 3. vagrant config file: Vagranfile
 4. command:
 ```
-va up
-va ssh
+vagrant up
+vagrant ssh
 ```
+
