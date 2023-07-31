@@ -3,7 +3,7 @@
 
 
 
-## Reference Tutorial
+## Reference Tutor Video
 [Build a minimal Linux with only Busybox in 1 hour](https://www.youtube.com/watch?v=asnXWOUKhTA)
 
 ## 包含VM搭建的tutorial
