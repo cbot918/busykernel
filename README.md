@@ -37,3 +37,13 @@ if console stuck
 ```
 killall qemu-system-x86_64
 ```
+
+## VM helper
+1. install virtualbox
+2. install vagrant
+3. vagrant config file: Vagranfile
+4. command:
+```
+va up
+va ssh
+```
