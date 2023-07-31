@@ -7,7 +7,7 @@
 [Build a minimal Linux with only Busybox in 1 hour](https://www.youtube.com/watch?v=asnXWOUKhTA)
 
 ## 包含VM搭建的tutorial
-[build_kernel_with_busybox]()
+[build_kernel_with_busybox](https://github.com/cbot918/busykernel/blob/master/build_kernel_with_busybox.md)
 
 ## Lab Environment
 - ubuntu 20.04
