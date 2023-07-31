@@ -1,5 +1,5 @@
 # busy-kernel
-
+自己build一個kernel出來,並且進去有busybox的工具可以用
 ## Env Requirements
 - ubuntu 20.04
 
